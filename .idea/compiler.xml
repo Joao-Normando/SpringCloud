@@ -9,10 +9,12 @@
         <module name="config-server" />
         <module name="service-discovery" />
         <module name="produtos" />
+        <module name="gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="1.8" />
+      <module name="gateway" target="1.8" />
       <module name="produtos" target="1.8" />
       <module name="service-discovery" target="1.8" />
     </bytecodeTargetLevel>
@@ -20,6 +22,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
       <module name="produtos" options="-parameters" />
       <module name="service-discovery" options="-parameters" />
     </option>
